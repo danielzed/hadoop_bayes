@@ -1,9 +1,9 @@
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.FileSplit;
 import org.apache.hadoop.mapreduce.InputSplit;
 import org.apache.hadoop.mapreduce.RecordReader;
 import org.apache.hadoop.mapreduce.TaskAttemptContext;
+import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.input.LineRecordReader;
 
 import java.io.File;
@@ -30,7 +30,8 @@ public class PredictTestRecordReader extends RecordReader<Text,Text>{
             while(reader.nextKeyValue()){
                 result+=reader.getCurrentValue()+"\n";
             }
-            key.set(Util.getFilename(fileSplit.getPath().toString()));
+            key.set(Util.getFilename(fileSplit.getPath().toString())+
+                    "&"+Util.getTestClassname(fileSplit.getPath().toString()));
             value.set(result);
             flag=false;
             return true;

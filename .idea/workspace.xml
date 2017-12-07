@@ -2,10 +2,388 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac6f256-59e4-4ea4-b809-3fc7411e898b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PredictTestInputFormat.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PredictTestRecordReader.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/478259newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/478564newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/479391newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/480037newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/480751newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/481157newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/481159newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/481168newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/482324newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/483043newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/483122newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/483624newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/487330newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ALB/487883newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/478716newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/478737newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/478749newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/478837newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/480822newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/481333newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/481347newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/481349newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/481408newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/482347newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/483689newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/483933newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/484224newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/484232newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/484268newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/485811newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/487386newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/487398newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/ARG/487725newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/478858newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/478859newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/478867newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/478870newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480297newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480298newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480310newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480319newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480321newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480381newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480511newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480790newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/480824newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/481460newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/481466newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/481474newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/481478newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/481480newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/481619newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483245newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483284newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483285newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483287newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483291newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483299newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483301newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483316newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483319newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483321newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483322newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483330newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/483711newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486090newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486091newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486095newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486100newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486103newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486137newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486138newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486142newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486143newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486545newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486616newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486635newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/486826newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/487941newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488019newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488604newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488611newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488625newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488627newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488628newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488629newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488637newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488641newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488645newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/AUSTR/488646newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/480075newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/480133newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/480144newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/482353newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/482381newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/482388newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/482419newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/482727newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/483866newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/483880newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/485497newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/485812newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/485858newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/485888newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/486030newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/486585newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/486758newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/487801newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/487810newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/488033newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/488343newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/488355newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/488508newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/488546newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BELG/488926newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/478258newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/478714newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/478747newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/478769newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/478778newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/478834newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/478835newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481306newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481309newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481316newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481330newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481334newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481355newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481375newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481385newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481393newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481422newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/481426newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/482168newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/484197newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/484240newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/484291newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/484303newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/484307newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/484321newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/487344newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/487384newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/487388newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/487394newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/487431newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/487449newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/BRAZ/487452newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/477890newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/477892newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/477897newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/477901newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/478310newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/478478newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/478939newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/478973newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/479579newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/480293newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/480836newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/480839newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/481054newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/481067newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/481068newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/481635newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/481636newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/481640newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/481643newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/482590newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/482856newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/482857newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/482858newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/483741newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/483958newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/483962newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/483963newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/485052newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/485381newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/485517newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/486031newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/486838newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/486850newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/486853newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/486855newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/486860newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/487491newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/487744newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Country/CANA/488540newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/478664newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/479411newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/480042newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/480050newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/480739newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/480936newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/481298newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/482720newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/484097newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/484942newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/485841newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/487203newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/487806newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ALB/487864newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/478724newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/478726newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/478736newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/478750newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/478811newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/478830newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/481356newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/481360newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/481400newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/481436newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/481721newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/484267newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/484282newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/484288newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/484587newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/487370newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/487402newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/487405newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/ARG/487423newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/478861newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/478864newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/478940newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/479023newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/479491newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480299newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480303newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480306newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480311newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480320newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480324newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480326newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480329newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480332newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480454newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480755newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480757newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480788newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480791newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480793newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/480794newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/481020newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/481461newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/481465newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/481531newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/482701newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/483241newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/483279newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/483283newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/483288newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/483296newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/483303newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/483307newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/483375newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/484344newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/484351newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/485658newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/485687newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486099newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486105newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486109newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486128newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486130newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486140newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486145newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486161newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486532newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486633newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486634newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/486638newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/488591newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/488593newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/488603newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/488606newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/488617newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/488619newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/AUSTR/488642newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/480059newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/480077newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/480078newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/480127newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/480140newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/480168newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/480171newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/482425newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/482429newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/483066newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/483149newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/483156newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/483662newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/485793newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/485944newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/485992newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/486084newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/486468newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/486472newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/487865newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/488374newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/488433newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/488478newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/488482newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BELG/488531newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/478722newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/478735newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/478757newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/478782newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/478813newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/478844newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/481317newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/481365newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/481383newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/481391newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/481409newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/481415newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/481440newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/481746newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/483142newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484208newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484215newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484218newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484251newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484289newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484297newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484298newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484299newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484324newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/484777newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/486875newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/487363newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/487364newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/487382newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/487415newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/487422newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/BRAZ/487433newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/477888newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/477894newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/478468newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/478471newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/479393newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/479549newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/479554newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/481048newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/481053newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/481629newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/481638newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/481641newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/482030newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/482927newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/483201newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/483708newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/483956newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/483959newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/483965newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/483968newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/483980newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/484190newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/485053newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/485055newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/485056newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/485062newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/485170newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/486622newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/486652newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/486653newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/486842newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/486852newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/486854newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/486857newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/488014newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/488015newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/488017newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/488023newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NBCorpus/Test/CANA/488510newsML.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/hadoop_bayes/Prediction$PredictionMapper.class" afterPath="$PROJECT_DIR$/out/production/hadoop_bayes/Prediction$PredictionMapper.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/hadoop_bayes/Prediction$PredictionReducer.class" afterPath="$PROJECT_DIR$/out/production/hadoop_bayes/Prediction$PredictionReducer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/hadoop_bayes/Prediction.class" afterPath="$PROJECT_DIR$/out/production/hadoop_bayes/Prediction.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/hadoop_bayes/Test.class" afterPath="$PROJECT_DIR$/out/production/hadoop_bayes/Test.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/hadoop_bayes/Util.class" afterPath="$PROJECT_DIR$/out/production/hadoop_bayes/Util.class" />
+      <change beforePath="$PROJECT_DIR$/src/PredictTestInputFormat.java" afterPath="$PROJECT_DIR$/src/PredictTestInputFormat.java" />
+      <change beforePath="$PROJECT_DIR$/src/PredictTestRecordReader.java" afterPath="$PROJECT_DIR$/src/PredictTestRecordReader.java" />
       <change beforePath="$PROJECT_DIR$/src/Prediction.java" afterPath="$PROJECT_DIR$/src/Prediction.java" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
       <change beforePath="$PROJECT_DIR$/src/Util.java" afterPath="$PROJECT_DIR$/src/Util.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,23 +396,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="76" column="55" lean-forward="false" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Prediction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Prediction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Prediction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+            <state relative-caret-position="125">
+              <caret line="127" column="37" lean-forward="false" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Prediction#0;class#Prediction#0" expanded="false" />
@@ -43,43 +409,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PredictTestInputFormat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PredictTestInputFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PredictTestRecordReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PredictTestRecordReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1456#1457#0" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#251#260#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,11 +422,19 @@
       <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-              <folding>
-                <element signature="e#1127#1136#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PredictTestRecordReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PredictTestRecordReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="33" column="77" lean-forward="false" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,11 +465,12 @@
         <option value="$PROJECT_DIR$/src/ClassTermInputFormat.java" />
         <option value="$PROJECT_DIR$/src/WordCount.java" />
         <option value="$PROJECT_DIR$/outcome/part-r-00000" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/PredictTestInputFormat.java" />
-        <option value="$PROJECT_DIR$/src/Util.java" />
         <option value="$PROJECT_DIR$/src/PredictTestRecordReader.java" />
+        <option value="$PROJECT_DIR$/src/Util.java" />
+        <option value="$PROJECT_DIR$/outcome2/part-r-00000" />
         <option value="$PROJECT_DIR$/src/Prediction.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
       </list>
     </option>
   </component>
@@ -171,20 +515,12 @@
             <path>
               <item name="hadoop_bayes" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_bayes" type="462c0819:PsiDirectoryNode" />
-              <item name="NBCorpus" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_bayes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_bayes" type="462c0819:PsiDirectoryNode" />
-              <item name="NBCorpus" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="ALB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_bayes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_bayes" type="462c0819:PsiDirectoryNode" />
               <item name="outcome1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_bayes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_bayes" type="462c0819:PsiDirectoryNode" />
+              <item name="outcome2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop_bayes" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +560,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prediction">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -354,8 +690,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Prediction" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Prediction" />
         <item index="2" class="java.lang.String" itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
@@ -378,7 +714,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="24" width="1281" height="744" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -388,9 +723,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3775351" sideWeight="0.5027365" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19561815" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34428796" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22222222" sideWeight="0.4972635" order="10" side_tool="false" content_ui="tabs" x="82" y="341" width="1279" height="335" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40532082" sideWeight="0.4972635" order="10" side_tool="false" content_ui="tabs" x="82" y="341" width="1279" height="335" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23690383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -416,13 +751,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Prediction.java</url>
-          <line>108</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Prediction.java</url>
-          <line>65</line>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -506,16 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassTermInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/outcome/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -553,18 +872,7 @@
         <state relative-caret-position="192">
           <caret line="76" column="55" lean-forward="false" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#260#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -582,53 +890,71 @@
         <state relative-caret-position="421">
           <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util.java">
+    <entry file="file://$PROJECT_DIR$/src/ClassTermInputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        <state relative-caret-position="234">
+          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
           <folding>
-            <element signature="e#1127#1136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PredictTestRecordReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PredictTestInputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PredictTestRecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" column="77" lean-forward="false" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outcome2/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Prediction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        <state relative-caret-position="125">
+          <caret line="127" column="37" lean-forward="false" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Prediction#0;class#Prediction#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

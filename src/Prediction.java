@@ -8,6 +8,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.*;
+import java.nio.Buffer;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
@@ -16,6 +17,11 @@ public class Prediction {
     private static Hashtable<String,Double> class_prob=new Hashtable();
     private static Hashtable<Map<String,String>,Double> class_term_prob=new Hashtable();
     private static Hashtable<String,Double> class_term_total=new Hashtable();
+    //tp,tn,fp,fn4个数据结构
+    public static Hashtable<String,Integer> TP=new Hashtable();
+    public static Hashtable<String,Integer> TN=new Hashtable();
+    public static Hashtable<String,Integer> FP=new Hashtable();
+    public static Hashtable<String,Integer> FN=new Hashtable();
     Prediction() throws FileNotFoundException,IOException{
         //计算class_prob
         BufferedReader reader=new BufferedReader(new FileReader(new File(Util.OUTPUT_PATH+"part-r-00000")));
@@ -69,13 +75,29 @@ public class Prediction {
     private static class PredictionMapper extends Mapper<Text,Text,Text,Text>{
         @Override
         protected void map(Text key, Text value, Context context) throws IOException, InterruptedException {
-            super.map(key, value, context);
+            Text result=new Text();
+            double prob=0;
+            for(String classname:Util.CLASS_NAMES){
+                result.set(classname+"&"+Double.toString(conditionalProbabilityForClass(value.toString(),classname)));
+                context.write(key,result);
+            }
+
         }
     }
     private static class PredictionReducer extends Reducer<Text,Text,Text,Text>{
         @Override
         protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-            super.reduce(key, values, context);
+            Text result=new Text();
+            String max_classname="";
+            double max_prob=0;
+            for(Text text:values){
+                String[] args=text.toString().split("&");
+                if(Double.valueOf(args[1])>max_prob){
+                    max_prob=Double.valueOf(args[1]);
+                    max_classname=args[0];
+                }
+            }
+            context.write(key,new Text(max_classname));
         }
     }
     public static void main(String[] args) throws Exception{
@@ -99,15 +121,46 @@ public class Prediction {
         }
         FileOutputFormat.setOutputPath(job,new Path(Util.OUTPUT_PATH2));
         job.waitForCompletion(true);
+        //等job执行完，从outcome2中获取预测结果计算measures
+        calculatePrecision();
+        for(String classname:Util.CLASS_NAMES){
+            double p=0,r=0,f1=0;
+            System.out.println(TP.getOrDefault(classname,1));
+            System.out.println(FP.getOrDefault(classname,1));
+            System.out.println(FN.getOrDefault(classname,1));
+            p=(double)TP.getOrDefault(classname,1)/(TP.getOrDefault(classname,1)+FP.getOrDefault(classname,0));
+            r=(double)TP.getOrDefault(classname,1)/(TP.getOrDefault(classname,1)+FN.getOrDefault(classname,0));
+            f1=2*p/(p+r);
+            System.out.println(String.format("%s precision: {0:P4}----recall: {0:P4}----f1:{0:P4} "
+                    ,classname,p,r,f1));
+        }
+    }
+    //micro vs macro选择micro，取每个类的precision取均值
+    //4个记录tp,fp,tn,fn的数据结构，hashtable<class,count>
+    //两层循环，第一层每行预测结果，第二层，每个类
 
-        //测试conditionalProbabilityForClass函数是否可用
-//        BufferedReader reader=new BufferedReader(new FileReader(new File(Util.INPUT_PATH_TEST+"1.txt")));
-//        String content="";
-//        while(reader.ready()){
-//            content+=reader.readLine()+"\n";
-//        }
-//        for(String classname:Util.CLASS_NAMES){
-//            System.out.println(String.format("%s prob:%f",classname,conditionalProbabilityForClass(content,classname)));
-//        }
+    //public static Hashtable<String,Double> PRECISION
+    public static void calculatePrecision() throws Exception{
+        BufferedReader reader=new BufferedReader(
+                new FileReader(Util.OUTPUT_PATH2+"part-r-00000"));
+        while(reader.ready()){
+            String line=reader.readLine();
+            String[] args=line.split("\t");
+            String[] args1=args[0].split("&");
+            String docid=args1[0];
+            String truth=args1[1];
+            String predict=args[1];
+            for(String classname:Util.CLASS_NAMES){
+                if(truth.equals(classname) && predict.equals(classname)){
+                    TP.put(classname,TP.getOrDefault(classname,0)+1);
+                }else if(truth.equals(classname) && !predict.equals(classname)){
+                    FN.put(classname,FN.getOrDefault(classname,0)+1);
+                }else if(!truth.equals(classname) && predict.equals(classname)){
+                    FP.put(classname,FP.getOrDefault(classname,0)+1);
+                }else if(!truth.equals(classname) && !predict.equals(classname)){
+                    TN.put(classname,TN.getOrDefault(classname,0)+1);
+                }
+            }
+        }
     }
 }

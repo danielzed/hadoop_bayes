@@ -9,8 +9,7 @@ import java.io.IOException;
 public class PredictTestInputFormat extends FileInputFormat<Text,Text>{
     @Override
     public RecordReader createRecordReader(InputSplit inputSplit, TaskAttemptContext taskAttemptContext) throws  IOException{
-        PredictTestRecordReader reader=new PredictTestRecordReader();
-        reader.initialize(inputSplit, taskAttemptContext);
-        return reader;
+
+        return new PredictTestRecordReader();
     }
 }
