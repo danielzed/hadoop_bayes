@@ -14,6 +14,7 @@ public class Util {
     public static String OUTPUT_PATH2="/home/danielzhang/IdeaProjects/hadoop_bayes/outcome2/";
     public static String INPUT_PATH_TEST="/home/danielzhang/IdeaProjects/hadoop_bayes/NBCorpus/Test/";
     private static Pattern classnamePattern=Pattern.compile("Country/(.*)/");
+    private static Pattern filenamePattern=Pattern.compile("/(.*).txt");
     private static ArrayList<Integer> getRandomList(int limit){
         Hashtable<Integer,Integer> table=new Hashtable();
         ArrayList<Integer> result=new ArrayList<Integer>();
@@ -52,6 +53,13 @@ public class Util {
     }
     public static String getClassname(String text){
         Matcher matcher=classnamePattern.matcher(text);
+        if(matcher.find()){
+            return matcher.group(1);
+        }
+        return null;
+    }
+    public static String getFilename(String text){
+        Matcher matcher=filenamePattern.matcher(text);
         if(matcher.find()){
             return matcher.group(1);
         }

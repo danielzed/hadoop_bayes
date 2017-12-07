@@ -87,7 +87,7 @@ public class Prediction {
         job.setJarByClass(Prediction.class);
         job.setMapperClass(PredictionMapper.class);
         job.setReducerClass(PredictionReducer.class);
-        job.setInputFormatClass();
+        job.setInputFormatClass(PredictTestInputFormat.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
         File out=new File(Util.OUTPUT_PATH2);
