@@ -1,0 +1,16 @@
+moody
+investors
+service
+rating
+announcement
+04/03/97.issuer
+puerto
+rico
+commonwealth
+ofstate
+prrating
+baa1sale
+150,000,000expected
+sale
+date
+04/08/97

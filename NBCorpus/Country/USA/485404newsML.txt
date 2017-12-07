@@ -1,0 +1,13 @@
+quarterly
+latest
+prior
+0.12
+0.10
+pay
+7
+record
+april
+23note
+company
+industrial
+bancorp

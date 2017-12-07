@@ -1,0 +1,9 @@
+quarterly
+latest
+prior
+0.23
+0.23
+pay
+23
+record
+9

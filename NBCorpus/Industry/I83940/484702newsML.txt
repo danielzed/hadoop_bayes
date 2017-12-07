@@ -1,0 +1,10 @@
+quarterly
+latest
+prior
+0.15
+0.15
+pay
+june
+10
+record
+15

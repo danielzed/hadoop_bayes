@@ -1,0 +1,14 @@
+quarterly
+latest
+prior
+0.645
+0.645
+pay
+1
+record
+april
+21note
+company
+orange
+rockland
+utilities

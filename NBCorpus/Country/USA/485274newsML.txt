@@ -1,0 +1,15 @@
+quarterly
+latest
+prior
+0.32
+0.32
+pay
+1
+record
+april
+14
+reuters
+chicago
+newsdesk
+312
+408-8787

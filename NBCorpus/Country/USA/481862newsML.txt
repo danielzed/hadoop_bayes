@@ -1,0 +1,14 @@
+quarterly
+latest
+prior
+0.0375
+0.0375
+pay
+april
+24
+record
+april
+14note
+company
+lcs
+industries

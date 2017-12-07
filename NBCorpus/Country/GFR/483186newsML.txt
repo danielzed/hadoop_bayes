@@ -1,0 +1,11 @@
+dollar
+fixed
+1.6725
+marks
+frankfurt
+wednesday
+1.6713
+marks
+tuesday
+bundesbank
+intervention

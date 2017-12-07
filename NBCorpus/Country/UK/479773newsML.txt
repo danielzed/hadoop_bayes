@@ -1,0 +1,7 @@
+fresh
+shipsales
+reported
+secondhand
+tonnage
+brokers
+tuesday
