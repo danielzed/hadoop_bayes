@@ -57,9 +57,6 @@ public class WordCount {
             context.write(key, result);
         }
     }
-    public static String INPUT_PATH="/home/danielzhang/IdeaProjects/hadoop_bayes/NBCorpus/Country/";
-    public static String OUTPUT_PATH="/home/danielzhang/IdeaProjects/hadoop_bayes/outcome/";
-    public static String OUTPUT_PATH1="/home/danielzhang/IdeaProjects/hadoop_bayes/outcome1/";
     public static void main(String[] args) throws Exception {
         //classname count 作业配置
         Configuration conf = new Configuration();
@@ -72,14 +69,14 @@ public class WordCount {
         job.setOutputValueClass(IntWritable.class);
         job.setInputFormatClass(ClassnameInputFormat.class);
         //如果output_path存在，则要删除，在执行
-        File out=new File(OUTPUT_PATH);
+        File out=new File(Util.OUTPUT_PATH);
         if(out.exists()){
             Util.deleteDir(out);
         }
         for(String classname:Util.CLASS_NAMES){
-            FileInputFormat.addInputPath(job, new Path(INPUT_PATH+classname));
+            FileInputFormat.addInputPath(job, new Path(Util.INPUT_PATH+classname));
         }
-        FileOutputFormat.setOutputPath(job, new Path(OUTPUT_PATH));
+        FileOutputFormat.setOutputPath(job, new Path(Util.OUTPUT_PATH));
         //System.exit(job.waitForCompletion(true) ? 0 : 1);
         job.waitForCompletion(true);
 
@@ -92,14 +89,14 @@ public class WordCount {
         job1.setOutputKeyClass(Text.class);
         job1.setOutputValueClass(IntWritable.class);
         job1.setInputFormatClass(ClassTermInputFormat.class);
-        File out1=new File(OUTPUT_PATH1);
+        File out1=new File(Util.OUTPUT_PATH1);
         if(out1.exists()){
             Util.deleteDir(out1);
         }
         for(String classname:Util.CLASS_NAMES){
-            FileInputFormat.addInputPath(job1, new Path(INPUT_PATH+classname));
+            FileInputFormat.addInputPath(job1, new Path(Util.INPUT_PATH+classname));
         }
-        FileOutputFormat.setOutputPath(job1,new Path(OUTPUT_PATH1));
+        FileOutputFormat.setOutputPath(job1,new Path(Util.OUTPUT_PATH1));
         job1.waitForCompletion(true);
     }
 }
