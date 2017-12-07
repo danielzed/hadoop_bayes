@@ -3,6 +3,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Util {
+    //public static String[] CLASS_NAMES={"ALB","ARG","AUSTR","BELG","BRAZ","CANA"};
+    public static String[] CLASS_NAMES={"AFGH"};
     private static Pattern classnamePattern=Pattern.compile("Country/(.*)/");
     public static String getClassname(String text){
         Matcher matcher=classnamePattern.matcher(text);
