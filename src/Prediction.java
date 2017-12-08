@@ -17,11 +17,14 @@ public class Prediction {
     private static Hashtable<String,Double> class_prob=new Hashtable();
     private static Hashtable<Map<String,String>,Double> class_term_prob=new Hashtable();
     private static Hashtable<String,Double> class_term_total=new Hashtable();
-    //tp,tn,fp,fn4个数据结构
+    //tp,tn,fp,fn,p,r,f1 7个数据结构
     public static Hashtable<String,Integer> TP=new Hashtable();
     public static Hashtable<String,Integer> TN=new Hashtable();
     public static Hashtable<String,Integer> FP=new Hashtable();
     public static Hashtable<String,Integer> FN=new Hashtable();
+    public static Hashtable<String,Double> P=new Hashtable();
+    public static Hashtable<String,Double> R=new Hashtable();
+    public static Hashtable<String,Double> F1=new Hashtable();
     Prediction() throws FileNotFoundException,IOException{
         //计算class_prob
         BufferedReader reader=new BufferedReader(new FileReader(new File(Util.OUTPUT_PATH+"part-r-00000")));
@@ -124,17 +127,60 @@ public class Prediction {
         //等job执行完，从outcome2中获取预测结果计算measures
         calculatePrecision();
         for(String classname:Util.CLASS_NAMES){
-            double p=0,r=0,f1=0;
-            System.out.println(TP.getOrDefault(classname,1));
-            System.out.println(FP.getOrDefault(classname,1));
-            System.out.println(FN.getOrDefault(classname,1));
-            p=(double)TP.getOrDefault(classname,1)/(TP.getOrDefault(classname,1)+FP.getOrDefault(classname,0));
-            r=(double)TP.getOrDefault(classname,1)/(TP.getOrDefault(classname,1)+FN.getOrDefault(classname,0));
+            double p=0,r=0,f1=0,tp=0,fp=0,fn=0;
+            tp=TP.getOrDefault(classname,1);
+            fp=FP.getOrDefault(classname,1);
+            fn=FN.getOrDefault(classname,1);
+            System.out.println(tp/fp);
+            System.out.println(fp);
+            System.out.println(fn);
+            p=tp/(tp+fp);
+            r=tp/(tp+fn);
             f1=2*p/(p+r);
-            System.out.println(String.format("%s precision: {0:P4}----recall: {0:P4}----f1:{0:P4} "
+            P.put(classname,p);
+            R.put(classname,r);
+            F1.put(classname,f1);
+            System.out.println(String.format("%s precision: %f----recall: %f----f1:%f "
                     ,classname,p,r,f1));
         }
+        printMicroAverage();
+        printMacroAverage();
     }
+    //根据micro和macro 平均原则计算多个类别的P，R，F1
+    private static void printMicroAverage(){
+        double sumP=0,sumR=0,sumF1=0,length=Util.CLASS_NAMES.length;
+        for(String classname:Util.CLASS_NAMES){
+            sumP+=P.get(classname);
+            sumR+=R.get(classname);
+            sumF1+=F1.get(classname);
+        }
+        System.out.println(String.format(
+                "all classes micro average P: %f",sumP/length));
+        System.out.println(String.format(
+                "all classes micro average R: %f",sumR/length));
+        System.out.println(String.format(
+                "all classes micro average F1: %f",sumF1/length));
+    }
+    private static void printMacroAverage(){
+        double tp=0,fp=0,fn=0;
+        double p=0,r=0,f1=0;
+        for(String classname:Util.CLASS_NAMES){
+            tp+=TP.get(classname);
+            fp+=FP.getOrDefault(classname,1);
+            fn+=FN.getOrDefault(classname,1);
+        }
+        p=tp/(tp+fp);
+        r=tp/(tp+fn);
+        f1=2*p/(p+r);
+        System.out.println(String.format(
+                "all classes macro average P: %f",p));
+        System.out.println(String.format(
+                "all classes macro average R: %f",r));
+        System.out.println(String.format(
+                "all classes macro average F1: %f",f1));
+    }
+
+
     //micro vs macro选择micro，取每个类的precision取均值
     //4个记录tp,fp,tn,fn的数据结构，hashtable<class,count>
     //两层循环，第一层每行预测结果，第二层，每个类
