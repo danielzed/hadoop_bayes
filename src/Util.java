@@ -6,15 +6,22 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Util {
+
+    //训练及测试选取的类别
     public static String[] CLASS_NAMES={"ALB","ARG","AUSTR","BELG","BRAZ","CANA"};
     //public static String[] CLASS_NAMES={"ALB"};
+    //训练输入父目录
     public static String INPUT_PATH="/home/danielzhang/IdeaProjects/hadoop_bayes/NBCorpus/Country/";
+    //类别统计输出目录
     public static String OUTPUT_PATH="/home/danielzhang/IdeaProjects/hadoop_bayes/outcome/";
+    //class-term统计输出目录
     public static String OUTPUT_PATH1="/home/danielzhang/IdeaProjects/hadoop_bayes/outcome1/";
+    //最终TEST测试分类结果输出目录
     public static String OUTPUT_PATH2="/home/danielzhang/IdeaProjects/hadoop_bayes/outcome2/";
+    //Test测试分类输入文件父目录，具体测试文件在该目录下具体类别的子目录
     public static String INPUT_PATH_TEST="/home/danielzhang/IdeaProjects/hadoop_bayes/NBCorpus/Test/";
 
-
+    //生成limit下随机20%比例的int list
     private static ArrayList<Integer> getRandomList(int limit){
         Hashtable<Integer,Integer> table=new Hashtable();
         ArrayList<Integer> result=new ArrayList<Integer>();
@@ -51,6 +58,7 @@ public class Util {
 
         }
     }
+    //从路径中抽取类别名称
     private static Pattern classnamePattern=Pattern.compile("Country/(.*)/");
     public static String getClassname(String text){
         Matcher matcher=classnamePattern.matcher(text);
@@ -68,6 +76,7 @@ public class Util {
         }
         return null;
     }
+    //从路径中抽取文件docid
     private static Pattern filenamePattern=Pattern.compile("/(\\w*).txt");
     public static String getFilename(String text){
         Matcher matcher=filenamePattern.matcher(text);
@@ -76,15 +85,6 @@ public class Util {
         }
         return null;
     }
-    public static void doDeleteEmptyDir(String dir) {
-        boolean success = (new File(dir)).delete();
-        if (success) {
-            System.out.println("Successfully deleted empty directory: " + dir);
-        } else {
-            System.out.println("Failed to delete empty directory: " + dir);
-        }
-    }
-
     /**
      * 递归删除目录下的所有文件及子目录下所有文件
      * @param dir 将要删除的文件目录

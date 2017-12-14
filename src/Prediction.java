@@ -25,7 +25,7 @@ public class Prediction {
     public static Hashtable<String,Double> P=new Hashtable();
     public static Hashtable<String,Double> R=new Hashtable();
     public static Hashtable<String,Double> F1=new Hashtable();
-    Prediction() throws FileNotFoundException,IOException{
+    Prediction() throws IOException{
         //计算class_prob
         BufferedReader reader=new BufferedReader(new FileReader(new File(Util.OUTPUT_PATH+"part-r-00000")));
         double file_total=0;
